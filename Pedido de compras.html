@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	 <title>Pedido de compras</title>
+	 <meta charset="utf-8"/>
+	 </head>
+     <body>
+
+         <h1><center>Pedido de compras</center></h1>
+         <form action="Script_do_Formulario.php" method="post">
+
+             <table cellspacing="10"> </table>
+			 
+			 <legend> Dados da Empresa</legend> 
+
+             <fieldset>
+			     <br>      
+			     <label for="codempresa">Cod.empresa</label>
+                 <td align="left">
+                 <input type="text" name="codempresa" size="10" maxlength="10">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;              
+                 
+                 <label for="datapedido">Data do pedido:</label>
+                 <td align="left">
+                 <input type="text" name="datapedido" size="2" maxlength="2">
+                 <input type="text" name="datapedido2" size="2" maxlength="2">
+                 <input type="text" name="datapedido3" size="4" maxlength="4">&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; 				
+
+                 <label for="dataentrega">Data de entrega:</label>
+                 <td align="left">
+                 <input type="text" name="dataentrega" size="2" maxlength="2">
+                 <input type="text" name="dataentrega2" size="2" maxlength="2">
+                 <input type="text" name="dataentrega3" size="4" maxlength="4">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+
+                 <label for="numeropediddo">Número do pedido:</label>
+                 <td align="left">
+                 <input type="text" name="numeropedido" size="6" maxlength="6">
+                 <br>
+                 
+			     <br>
+                 <label for="razaosocial">Razão social::</label>
+                 <td align="left">
+                 <input type="text" name="razaosocial" size="38" maxlength="38">
+				 
+				 <label for="nomefantasia">Nome Fantasia:</label>
+                 <td align="left">
+                 <input type="text" name="nomefantasia" size="37" maxlength="37">
+				
+				 <label for="cnpj">CNPJ:</label>
+			     <td align="left">
+			     <input type="text" name="cnpj" size="18" maxlength="18">
+				    
+				 <label for="inscestadual">Inscrição Estadual:</label>
+			     <td align="left">
+			     <input type="text" name="inscestadual" size="18" maxlength="15">
+                 </br>
+
+                 <br>
+                 <label for="endereco">Endereço:</label>
+                 <td align="left">
+                 <input type="text" name="endereco" size="80" maxlength="80">&emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;
+			 
+			     <label for="numero">Número:</label>
+			     <td align="left">
+			     <input type="text" name="numero" size="10" maxl="10">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;	
+
+                 <label for="cep">CEP:</label>
+                 <td align"left">
+                 <input type="text" name="5" size="5" maxlength="5">
+                 <input type="text" name="3" size="3" maxlength="3">
+			     </br>
+			 
+			     <br>
+			     <label for="acomplemento">Complemento:</label>
+			     <td align="left">
+			     <input type="text" name="acomplemento" size="20" maxlength="20">&emsp;
+			 
+			     <label for="bairro">Bairro:</label>
+			     <td align="left">
+			     <input type="text" name="bairro" size="35" maxlength="35">&emsp;&emsp; 
+			 
+			     <label for="cidade">Cidade:</label>
+			     <td align="left">
+			     <input type="text" name="cidade" size="30" maxlength="30">&emsp;&emsp;			 
+			
+			     <label for="estado">Estado:</label>
+                 <td align="left">
+                 <select name="estado"> 
+                 <option value="ac">Acre</option> 
+                 <option value="al">Alagoas</option> 
+                 <option value="am">Amazonas</option> 
+                 <option value="ap">Amapá</option> 
+                 <option value="ba">Bahia</option> 
+                 <option value="ce">Ceará</option> 
+                 <option value="df">Distrito Federal</option> 
+                 <option value="es">Espírito Santo</option> 
+                 <option value="go">Goiás</option> 
+                 <option value="ma">Maranhão</option> 
+                 <option value="mt">Mato Grosso</option> 
+                 <option value="ms">Mato Grosso do Sul</option> 
+                 <option value="mg">Minas Gerais</option> 
+                 <option value="pa">Pará</option> 
+                 <option value="pb">Paraíba</option> 
+                 <option value="pr">Paraná</option> 
+                 <option value="pe">Pernambuco</option> 
+                 <option value="pi">Piauí</option> 
+                 <option value="rj">Rio de Janeiro</option> 
+                 <option value="rn">Rio Grande do Norte</option> 
+                 <option value="ro">Rondônia</option> 
+                 <option value="rs">Rio Grande do Sul</option> 
+                 <option value="rr">Roraima</option> 
+                 <option value="sc">Santa Catarina</option> 
+                 <option value="se">Sergipe</option> 
+                 <option value="sp">São Paulo</option> 
+                 <option value="to">Tocantins</option> 
+                 </select>&emsp;&emsp;     
+	         
+                 <label for="uf">UF:</label>
+                 <td align="left">
+                 <select name="uf"> 
+                 <option value="uac">Ac</option> 
+                 <option value="ual">Al</option> 
+                 <option value="uam">Am</option> 
+                 <option value="uap">Ap</option> 
+                 <option value="uba">Ba</option> 
+                 <option value="uce">Ce</option> 
+                 <option value="udf">Df</option> 
+                 <option value="ues">Es</option> 
+                 <option value="ugo">Go</option> 
+                 <option value="uma">Ma</option> 
+                 <option value="umt">Mt</option> 
+                 <option value="ums">Ms</option> 
+                 <option value="umg">Mg</option> 
+                 <option value="upa">Pa</option> 
+                 <option value="upb">Pb</option> 
+                 <option value="upr">Pr</option> 
+                 <option value="upe">Pe</option> 
+                 <option value="upi">Pi</option> 
+                 <option value="urj">Rj</option> 
+                 <option value="urn">Rn</option> 
+                 <option value="uro">Ro</option> 
+                 <option value="urs">Rs</option> 
+                 <option value="urr">Rr</option> 
+                 <option value="usc">Sc</option> 
+                 <option value="use">Se</option> 
+                 <option value="usp">Sp</option> 
+                 <option value="uto">To</option> 
+                 </select>
+				 </br>			  
+			 
+			     <br>
+			     <label for="dddcontato">DDD:</label>
+			     <td align="left">
+			     <input type="text" name="ddd" size="3" maxlength="3">
+			 
+			     <label for="telcontato">Telefone Contato:</label>
+			     <td align="left">
+			     <input type="text" name="dddcontato" size="4" maxlength="4">
+			     <input type="text" name="dddcontato2" size="4" maxlength="4">&emsp; &emsp;
+			 
+			     <label for="dddcelular">DDD:</label>
+			     <td align="left">
+			     <input type="text" name="dddcelular" size="3" maxlength="3">
+			 
+			     <label for="celular">Celular:</label>
+			     <td align="left">
+			     <input type="text" name="celular" size="4" maxlength="4">
+			     <input type="text" name="dddcelular2" size="4" maxlength="4">&emsp; &emsp;
+			 
+			     <label for="email">E-mail:</label>
+			     <td align="left">
+			     <input type="text" name="email" size="30" maxlength="30">&emsp; &emsp; &emsp;
+			 
+			     <label for="ncontato">Contato:</label>
+			     <td align="left">
+			     <input type="text" name="ncontato" size="20" maxlength="20">&emsp; &emsp;
+			 </fieldset>
+			 <br>
+			 <br>
+				
+             <legend>Dados da Compra</legend>
+             <fieldset>	 
+				   
+				 <table width="1299" border="1px" cellspacing="0" cellpadding="0">
+                 <tr>
+				 <td width="40" height="40" align="center">Cod. produto</td>
+                 <td width="300" align="center">Descrição do produto</td>
+                 <td width="40" align="center">Qtde</td>
+                 <td width="40" align="center">Valor Unit.</td>
+	             <td width="40" align="center">Sub-total</td>
+                 </tr>
+                 <tr>
+				 
+                 <td height="40" align="center">codigo 1</td>
+                 <td align="center">descrição produto 1</td>
+                 <td align="center">qtde1</td>
+                 <td align="center">valor unit1</td>
+	             <td align="center">sub-total1</td>
+                 </tr>
+                 <tr>
+                 <td height="40" align="center">codigo 2</td>
+                 <td align="center">descrição produto 2</td>
+                 <td align="center">qtde2</td>
+                 <td align="center">valor unit2</td>
+	             <td align="center">sub-total2</td>
+                 </tr>
+                 <tr>
+                 <td height="40" align="center">codigo 3</td>
+                 <td align="center">descrição produto 3</td>
+                 <td align="center">qtde3</td>
+                 <td align="center">valor unit3</td>
+	             <td align="center">sub-total3</td>
+                 </tr>
+                 <tr>
+                 <td height="40" align="center">codigo 4</td>
+                 <td align="center">descrição produto 4</td>
+                 <td align="center">qtde4</td>
+                 <td align="center">valor unit4</td>
+	             <td align="center">sub-total4</td>
+                 </tr>
+                 <tr>
+                 <td height="40" align="center">codigo 5</td>
+                 <td align="center">descrição produto 5</td>
+                 <td align="center">qtde5</td>
+                 <td align="center">valor unit5</td>
+	             <td align="center">sub-total5</td>
+                 </tr>
+                 <tr>
+                 <td height="40" align="center">codigo 6</td>
+                 <td align="center">descrição produto6</td>
+                 <td align="center">qtde6</td>
+                 <td align="center">valor unit6</td>
+	             <td align="center">sub-total6</td>
+                 </tr>
+				 </br>
+				 <td height="40" align="center">codigo 7</td>
+                 <td align="center">descrição produto7</td>
+                 <td align="center">qtde7</td>
+                 <td align="center">valor unit7</td>
+	             <td align="center">sub-total7</td>
+                 </tr>
+				 </br>
+				 <td height="40" align="center">codigo 8</td>
+                 <td align="center">descrição produto 8</td>
+                 <td align="center">qtde8</td>
+                 <td align="center">valor unit8</td>
+	             <td align="center">sub-total8</td>
+                 </tr>
+				 </br>
+				 <td height="40" align="center">codigo 9</td>
+                 <td align="center">descrição produto 9</td>
+                 <td align="center">qtde9</td>
+                 <td align="center">valor unit9</td>
+	             <td align="center">sub-total9</td>
+                 </tr>
+				 </br>
+				 <td height="40" align="center">codigo 10</td>
+                 <td align="center">descrição produto 10</td>
+                 <td align="center">qtde10</td>
+                 <td align="center">valor unit10</td>
+	             <td align="center">sub-total10</td>
+				 </tr>
+				 <br>				 
+			
+				 <td height="40" align="center">&emsp;
+                 <td align="center">&emsp;
+                 <td align="center">&emsp;
+                 <td align="center">Total do Pedido:</td>
+	             <td align="center">&emsp;</td>
+                 <br>
+			     </table> 
+                 <br>
+                 <br>				  
+             </fieldset>
+			 
+			 <br>
+			 <br>
+             
+			 <td align="left" />
+			 
+			 <legend> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;
+		     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+			 Data de entrega: ___/____/____ &emsp; &emsp; Recebido por:___________________________________</legend>
+				
+		   </form>
+       </body>
+</html>
